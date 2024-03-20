@@ -14,7 +14,7 @@ const answer = await inquirer.prompt([
 ]);
 
 // statements of if else
-console.log(answer);
+// console.log(answer);
 
 if (answer.operator === "Add") {
   console.log(answer.First_Number + answer.Second_Number);

@@ -11,8 +11,7 @@ const answer = await inquirer.prompt([
         choices: ["Add", "Sub", "Mul", "Div", "Pow", "Mod"],
     },
 ]);
-// statements of if else
-console.log(answer);
+
 if (answer.operator === "Add") {
     console.log(answer.First_Number + answer.Second_Number);
 }

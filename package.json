@@ -1,6 +1,6 @@
 {
-  "name": "bjcalculator",
-  "version": "1.0.1",
+  "name": "bj_calculator",
+  "version": "1.0.2",
   "description": "SIMPLE_CALCULATOR",
   "main": "index.js",
   "type": "module",
