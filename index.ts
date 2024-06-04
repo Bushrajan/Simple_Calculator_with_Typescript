@@ -3,8 +3,16 @@ import inquirer from "inquirer";
 
 //@ts-ignore
 const answer = await inquirer.prompt([
-  { message: "\nEnter FirstNumber:", type: "number", name: "First_Number"},
-  { message: "Enter SecondNumber:", type: "number", name: "Second_Number"},
+  {
+    message: "\nEnter FirstNumber:",
+    type: "number",
+    name: "First_Number"
+  },
+  {
+    message: "Enter SecondNumber:",
+    type: "number",
+    name: "Second_Number"
+  },
   {
     message: "Select Options to operate :",
     type: "list",
